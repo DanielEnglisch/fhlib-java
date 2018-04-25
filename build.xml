@@ -5,7 +5,7 @@
 	<property name="program.jar" value="fhlib.jar"/>
 	<property name="src.dir" value="${basedir}/src"/>
 	<property name="target.dir" value="${basedir}/bin"/>
-	<property name="test.build.dir" value="build/"/>
+	<property name="test.build.dir" value="${basedir}/bin/"/>
 	<property name="test.src.dir" value="src/"/>
 
 	<path id="classpath.test">
@@ -53,7 +53,7 @@
         </classpath>
         <formatter type="brief" usefile="false" />
         <batchtest>
-            <fileset dir="${test.src.dir}" includes="**/*Tests.java" />
+            <fileset dir="${test.src.dir}" includes="**/*Test.java" />
         </batchtest>
     </junit>
   </target>

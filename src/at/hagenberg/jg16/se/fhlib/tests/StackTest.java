@@ -9,7 +9,7 @@ import org.junit.Test;
 import at.hagenberg.jg16.se.fhlib.datastructure.Stack;
 import at.hagenberg.jg16.se.fhlib.datastructure.Stack.StackException;
 
-public class StackTests {
+public class StackTest {
 
 	@Test
 	public void emptyTest() throws StackException{
